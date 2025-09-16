@@ -37,7 +37,7 @@ func TestHelloEndpoint(t *testing.T) {
 			Method:          http.MethodGet,
 			URL:             "/",
 			ExpectedStatus:  200,
-			ExpectedContent: []string{"github.com/majodev/pocketbase-starter"},
+			ExpectedContent: []string{"github.com/flaviomataqque/pocketbase-starter"},
 			TestAppFactory:  setupTestApp,
 		},
 	}

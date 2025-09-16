@@ -182,7 +182,8 @@ ENV PATH $PATH:$GOBIN
 FROM development as builder
 WORKDIR /app
 COPY Makefile /app/Makefile
-COPY --chmod=0755 rksh /app/rksh
+COPY rksh /app/rksh
+RUN chmod 0755 /app/rksh
 COPY go.mod /app/go.mod
 COPY go.sum /app/go.sum
 RUN make modules

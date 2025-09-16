@@ -1,4 +1,4 @@
-module github.com/majodev/pocketbase-starter
+module github.com/mataqque/pocketbase-starter
 
 go 1.23
 

@@ -11,7 +11,7 @@ import (
 	"github.com/pocketbase/pocketbase/apis"
 	"github.com/pocketbase/pocketbase/core"
 	"github.com/pocketbase/pocketbase/plugins/migratecmd"
-	// _ "github.com/majodev/pocketbase-starter/migrations" // TODO: uncomment as soon as you have ./migrations/*.go files
+	// _ "github.com/flaviomataqque/pocketbase-starter/migrations" // TODO: uncomment as soon as you have ./migrations/*.go files
 )
 
 // embeddedFS holds our static content within public, embedded into the binary

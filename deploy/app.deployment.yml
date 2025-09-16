@@ -20,7 +20,7 @@ spec:
       automountServiceAccountToken: false
       containers:
         - name: app
-          image: ghcr.io/majodev/pocketbase-starter
+          image: pocketbase/pocketbase:latest
           ports:
             - name: app
               containerPort: 8090
